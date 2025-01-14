@@ -12,6 +12,6 @@ jobs:
         uses: wpengine/github-action-wpe-site-deploy@v3
         with:
           WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
-          WPE_ENV: headless-backend-mrpo
+          WPE_ENV: mrpobackend
           SRC_PATH: "./wp"
           REMOTE_PATH: "./wp"
