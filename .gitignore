@@ -1,8 +1,10 @@
 #---------------------------
 # Themes
 #---------------------------
+# Ignore all themes
 /themes/*
-!/themes/qorp-theme
+# Except this one theme
+!/themes/twentytwentyfour
 
 #---------------------------
 # Plugins
@@ -11,7 +13,7 @@
 #---------------------------
 # Ignore all plugins
 /plugins/*
-!/plugins/qorp-plugin
+
 
 #---------------------------
 # MU plugins: these are
@@ -81,4 +83,9 @@ autoupdater_maintenance_mode_enabled.tmp
 *.avi
 
 node_modules/
+
+.env
+.env.*
+
+.next
 
