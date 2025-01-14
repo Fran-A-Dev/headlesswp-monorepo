@@ -45,6 +45,7 @@ export default async function PostList() {
           <Suspense fallback={<Loading />}>
             <Link href={`/post/${post.uri}`}>
               <h3>{post.title}</h3>
+              <h4>Test</h4>
               <p
                 dangerouslySetInnerHTML={{
                   __html: post.content.slice(0, 200) + "...",
