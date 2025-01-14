@@ -3,8 +3,7 @@
 #---------------------------
 # Ignore all themes
 /themes/*
-# Except this one theme
-!/themes/twentytwentyfour
+
 
 #---------------------------
 # Plugins
@@ -13,6 +12,9 @@
 #---------------------------
 # Ignore all plugins
 /plugins/*
+# Except this one plugin
+!/plugins/my-custom-plugin
+
 
 
 #---------------------------
