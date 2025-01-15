@@ -1,7 +1,0 @@
-# Including plugins/themes that we check into
-# Git so that the version in GitHub is deployed
-
-/plugins/demo-plugin
-/themes/demo-theme
-
-# ...other plugins could go here...
