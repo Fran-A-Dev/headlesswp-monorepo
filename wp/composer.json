@@ -20,8 +20,7 @@
   "require": {
     "wpackagist-plugin/two-factor": "*",
     "wpackagist-plugin/gutenberg": "*",
-    "wpackagist-plugin/wordpress-seo": "*",
-    "wpengine/advanced-custom-fields-pro": "^6.3"
+    "wpackagist-plugin/wordpress-seo": "*"
   },
   "extra": {
     "installer-paths": {
