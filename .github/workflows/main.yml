@@ -17,5 +17,5 @@ jobs:
           REMOTE_PATH: "wp-content/"
 
           # Updated FLAGS path references:
-          FLAGS: "-azvr --inplace --delete --include-from wp-content/rsync-config/includes.txt --exclude=.* --exclude-from wp-content/rsync-config/excludes.txt"
+          FLAGS: "-azvr --inplace --delete --include-from wp-content-files/rsync-config/includes.txt --exclude=.* --exclude-from wp-content-files/rsync-config/excludes.txt"
           SCRIPT: "wp-content/bin/post-deploy.sh"
