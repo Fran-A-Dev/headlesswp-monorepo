@@ -13,8 +13,8 @@ jobs:
         with:
           WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
           WPE_ENV: mrpobackend
-          SRC_PATH: "./wp"
+          SRC_PATH: "./wp-content"
           REMOTE_PATH: "wp-content/"
           # Updated FLAGS path references:
-          FLAGS: -azvr --inplace --delete --include-from wp/rsync-config/includes.txt --exclude=".*" --exclude-from wp/rsync-config/excludes.txt
-          SCRIPT: wp-content/bin/post-deploy.sh
+          FLAGS: "-azvr --inplace --delete --include-from wp-content/rsync-config/includes.txt --exclude=.* --exclude-from wp-content/rsync-config/excludes.txt"
+          SCRIPT: "wp-content/bin/post-deploy.sh"
