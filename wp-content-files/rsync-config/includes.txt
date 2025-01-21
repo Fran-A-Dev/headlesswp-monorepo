@@ -3,5 +3,7 @@
 
 /plugins/demo-plugin
 /themes/demo-theme
-
+/composer.json
+/composer.lock
+/bin/post-deploy.sh
 # ...other plugins could go here...
