@@ -3,7 +3,7 @@
         'name' => 'wpe/composer-demo',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd639724f641cd43f199d7f1bf700d9937b6a8111',
+        'reference' => 'efcfbc7e554acad610daed75830e9422bb8c7789',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -49,7 +49,7 @@
         'wpe/composer-demo' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd639724f641cd43f199d7f1bf700d9937b6a8111',
+            'reference' => 'efcfbc7e554acad610daed75830e9422bb8c7789',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
