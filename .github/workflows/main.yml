@@ -18,4 +18,4 @@ jobs:
 
           # Updated FLAGS path references:
           FLAGS: "-azvr --inplace --delete --include-from wp-content-files/rsync-config/includes.txt --exclude=.* --exclude-from wp-content-files/rsync-config/excludes.txt"
-          SCRIPT: "wp-content/bin/post-deploy.sh"
+          SCRIPT: "wp-content-files/bin/post-deploy.sh"
