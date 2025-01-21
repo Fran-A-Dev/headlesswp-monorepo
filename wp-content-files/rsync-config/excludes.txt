@@ -18,4 +18,3 @@ mysql.sql
 .env.*
 auth.json
 vendor
-vendortwo
