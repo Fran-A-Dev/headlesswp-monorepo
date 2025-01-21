@@ -213,6 +213,6 @@
             "install-path": "../../plugins/wordpress-seo"
         }
     ],
-    "dev": true,
+    "dev": false,
     "dev-package-names": []
 }

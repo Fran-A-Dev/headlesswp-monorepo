@@ -3,11 +3,11 @@
         'name' => 'wpe/composer-demo',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8b6610dbd4ad27051f91025699f829373cd7302f',
+        'reference' => 'd639724f641cd43f199d7f1bf700d9937b6a8111',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'composer/installers' => array(
@@ -49,7 +49,7 @@
         'wpe/composer-demo' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8b6610dbd4ad27051f91025699f829373cd7302f',
+            'reference' => 'd639724f641cd43f199d7f1bf700d9937b6a8111',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
