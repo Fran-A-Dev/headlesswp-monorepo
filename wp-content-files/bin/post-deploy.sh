@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Starting post deploy script..."
-echo "Switch directory to wp-content/"
-cd wp-content-files
+echo "Switching to the parent directory..."
+cd ..
 echo "Installing Composer dependencies..."
 composer install --optimize-autoloader --no-dev --no-progress
